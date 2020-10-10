@@ -635,7 +635,6 @@ delay=int(1000/fps)
 #width=int(img.get(cv2.CAP_PROP_FRAME_WIDTH))
 #height=int(img.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-#writer = cv2.VideoWriter('output.avi', fourcc, 30.0, (640, 480))
 writer = cv2.VideoWriter('result.avi', fourcc, 30.0, (640, 480))
 
 #이전 프레임의 도로폭 저장을 위한 전역 변수

@@ -38,7 +38,7 @@ def curve(line):
 # 현재 운전중인 화면에 차선과 핸들 그리기
 def drawing_lane_handle(left_line, right_line, img, curvature, offset_, curvature_, pre_curvature):
     
-    white = cv2.imread('white.png')
+    white=np.zeros((480,640,3), dtype=np.uint8)
     
     left_x, right_x = left_line.x, right_line.x
     

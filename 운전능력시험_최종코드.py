@@ -679,7 +679,6 @@ while(img.isOpened()):
     #현 프레임 가져오기
     ret,src=img.read()
     
-    #writer.write(src)
     vehicleDetection()
 
     mask, matrix_inv, output1 = getbirdviewmask(src,upx,upy,dwx,dwy)
